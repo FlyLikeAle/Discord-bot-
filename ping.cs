@@ -45,18 +45,8 @@ namespace test_bott.Modules
                 }
             }
 
-        [Command("lul")]
-        public async Task ha()
-        {
-            await ReplyAsync("Thari i de Nacht gseht mer nur wenn er lacht");
-        }
-
-        [Command("ww3")]
-        public async Task hs()
-        {
-            await ReplyAsync("Me and the Boys doing trickshots in ww3");
-            await ReplyAsync("https://gfycat.com/annualanyamericanbadger");
-        }
+       
+        
 
         [Command("Michele Basketball skills")]
         public async Task hss()
@@ -86,17 +76,10 @@ namespace test_bott.Modules
         [Command("commands")]
         public async Task hsfss()
         {
-            await ReplyAsync("|elf\n|Gay\n|lul\n|ww3\n|Michele Basketball skills ");
-            await ReplyAsync("|Kobe\n|kick\n|Chinese\n|RIP Kobe\n|Basketball game");
+            await ReplyAsync("|elf\n|Gay\n|ww3\n|Michele Basketball skills ");
+            await ReplyAsync("|Kobe\n|kick\n|RIP Kobe\n|Basketball game");
             await ReplyAsync("|League stats (ingamename)\n|Sasuke\n|Serie (serie/welche Staffel Abstand = - Bsp.Cat dog->Cat-dog/2 <- welche Staffel)");
             
-        }
-
-        [Command("Chinese")]
-        public async Task hssfs()
-        {
-            await ReplyAsync("Me and the boys when the chinese kid coughs");
-            await ReplyAsync("https://tenor.com/view/naruto-fatboy-run-fast-ninja-gif-11322683");
         }
 
         [Command("RIP Kobe")]
